@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naznin Akhter | Portfolio</title>
+
+    <style>
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            margin: 0;
+            background: #f4f6fb;
+            padding: 40px;
+        }
+
+        /* MAIN CARD */
+        .portfolio {
+            width: 600px;
+            margin: auto;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            border-top: 6px solid #4a6cf7;
+        }
+
+        /* HEADER */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #e4e6ef;
+            padding-bottom: 20px;
+        }
+
+        .header-text h1 {
+            margin: 0;
+            font-size: 32px;
+            color: #2d2d2d;
+        }
+
+        .header-text p {
+            margin-top: 8px;
+            color: #555;
+            font-size: 16px;
+        }
+
+        .profile-pic {
+            width: 230px;
+            height: 230px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        /* SECTION */
+        .section {
+            margin-top: 30px;
+        }
+
+        .section h2 {
+            color: #4a6cf7;
+            font-size: 22px;
+            border-bottom: 1px solid #e4e6ef;
+            padding-bottom: 6px;
+        }
+
+
+        .project {
+            margin-bottom: 15px;
+        }
+
+
+        .skill-container {
+            overflow: hidden;
+            margin-top: 15px;
+            border-top: 1px solid #eee;
+            border-bottom: 1px solid #eee;
+            padding: 10px 0;
+        }
+
+        .skill-track {
+            display: flex;
+            width: max-content;
+            animation: move 20s linear infinite;
+        }
+
+        .skill-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0 20px;
+        }
+
+        .skill-item img {
+            width: 50px;
+            height: 50px;
+        }
+
+        .skill-item span {
+            margin-top: 5px;
+            font-size: 14px;
+            color: #333;
+        }
+
+        @keyframes move {
+            0% {
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translateX(-50%);
+            }
+        }
+
+        .contact p {
+            margin: 6px 0;
+        }
+
+        button {
+            margin-top: 10px;
+            padding: 8px 16px;
+            background: #4a6cf7;
+            border: none;
+            color: white;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #324dcf;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #777;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="portfolio">
+
+        <div class="header">
+            <div class="header-text">
+                <h1>Naznin Akter</h1>
+                <h3>BSc in Computer Science and Engineering</h3>
+            </div>
+            <img src="image.jpeg" alt="Naznin Photo" class="profile-pic">
+        </div>
+
+        <!-- ABOUT -->
+        <div class="section">
+            <h2>About Me</h2>
+            <p>
+                My name is <b>Naznin Akter</b>, and I am currently pursuing a Bachelor’s degree in Computer Science and
+                Engineering.
+                I have experience with multiple programming languages including C, C++, Java, JavaScript, and C#.
+                I am passionate about problem solving, developing efficient software solutions, and continuously
+                learning new technologies.
+                I aim to contribute my skills to practical projects and grow as a professional in the technology field.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <p><b>Bachelor:</b>Computer Science and Engineering</p>
+            <p><b>University:</b>American International University-Bangladesh</p>
+            <p><b>Year:</b> 2022-2026</p>
+            <br>
+            <p><b>HSC:</b> Science</p>
+            <p><b>College:</b>BAF Shaheen College Kurmitola,Dhaka</p>
+            <p><b>Year:</b>2019-2021</p>
+            <br>
+            <p><b>SSC:</b> Science</p>
+            <p><b>School:</b>BAF Shaheen College Kurmitola,Dhaka</p>
+            <p><b>Year:</b>2017-2019</p>
+        </div>
+
+
+        <div class="section">
+            <h2>Projects</h2>
+            <div class="project">
+                <p><b>Project 1:</b>CodeKid – C#</p>
+                <p>Description: Designed an interactive C# application with a graphical user interface, focused on
+                    functionality and user experience.</p>
+            </div>
+            <div class="project">
+                <p><b>Project 2:</b>Coin Game – C++ (OpenGL) </p>
+                <p>Description:Implemented a 2D animated game using C++ and graphics libraries, featuring real-time
+                    interaction and visual effects. </p>
+            </div>
+            <div class="project">
+                <p><b>Project 3:</b>Fish Game – HTML, CSS, JavaScript</p>
+                <p>Description: Built a browser-based interactive game with responsive design and dynamic animations
+                    using front-end web technologies.</p>
+            </div>
+            <div class="project">
+                <p><b>Project 4:</b>Personal Portfolio Website – HTML, CSS, JavaScript</p>
+                <p>Description:Created a responsive portfolio site to showcase academic projects and technical skills
+                    using modern web standards.</p>
+            </div>
+        </div>
+
+
+        <div class="section">
+            <h2>Programming Languages</h2>
+            <div class="skill-container">
+                <div class="skill-track">
+
+                    <div class="skill-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg">
+                        <span>C</span>
+                    </div>
+
+                    <div class="skill-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg">
+                        <span>C++</span>
+                    </div>
+
+                    <div class="skill-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg">
+                        <span>Java</span>
+                    </div>
+
+                    <div class="skill-item">
+                        <img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
+                        <span>JavaScript</span>
+                    </div>
+
+                    <div class="skill-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg">
+                        <span>C#</span>
+                    </div>
+
+                    <div class="skill-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">
+                        <span>HTML</span>
+                    </div>
+
+                    <div class="skill-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
+                        <span>CSS</span>
+                    </div>
+
+                    <div class="skill-item">
+                        <img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg">
+                        <span>TypeScript</span>
+                    </div>
+
+                    <div class="skill-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg">
+                        <span>C</span>
+                    </div>
+
+                    <div class="skill-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg">
+                        <span>C++</span>
+                    </div>
+
+                    <div class="skill-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg">
+                        <span>Java</span>
+                    </div>
+
+                    <div class="skill-item">
+                        <img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
+                        <span>JavaScript</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="section contact">
+            <h2>Contact</h2>
+            <p>Email: nazninakterahona2026@gmail.com</p>
+            <p>Phone: +8801612222110</p>
+            <button onclick="hello()">Say Hello</button>
+        </div>
+
+        <footer>
+            © 2026 Naznin Akhter
+        </footer>
+
+    </div>
+
+    <script>
+        function hello() {
+            alert("Thank you for visiting Naznin's Portfolio.");
+        }
+    </script>
+
+</body>
+
+</html>
